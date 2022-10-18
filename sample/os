@@ -1,0 +1,14 @@
+const os = require('os')
+
+//
+const user = os.userInfo()
+console.log(user)
+
+console.log(`The system is uptime ${os.uptime()}`)
+
+const currentos = {
+    name : os.type(),
+    release : os.release(),
+
+}
+console.log(currentos)
